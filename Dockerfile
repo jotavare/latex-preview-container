@@ -1,9 +1,7 @@
 FROM texlive/texlive:latest-full
-RUN apt-get update && apt-get install -y \
-git perl \
-&& rm -rf /var/lib/apt/lists/* \
-&& apt-get clean \
-&& apt-get autoremove -y \
-&& rm -rf /var/lib/apt/lists/* \
-&& rm -rf /tmp/* \
-&& echo All done!
+
+RUN apt-get update && \
+    apt-get install -y git perl && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* /tmp/* && \
+    echo "All done!"

@@ -4,3 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: jotavare/latex:latest
+    container_name: latex_container
+    restart: unless-stopped
