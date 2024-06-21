@@ -1,65 +1,16 @@
 {
-	"name": "latex",
 	"image": "jotavare/latex:latest",
-	"remoteUser": "root",
-	"features": {},
 	"customizations": {
 		"vscode": {
 			"settings": {
 				"latex-workshop.latex.clean.fileTypes": [
-					"*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot", "*.out", "*.toc",
-					"*.acn", "*.acr", "*.alg", "*.glg", "*.glo", "*.gls", "*.fls", "*.log", "*.fdb_latexmk",
-					"*.snm", "*.synctex(busy)", "*.synctex.gz(busy)", "*.nav", "*.vrb", "*.gz", "*.bcf", 
-					"*.nlo", "*.run.xml"
+					"*.aux", "*.fdb_latexmk", "*.fls", "*.log", "*.synctex.gz"
 				],
 				"latex-workshop.latex.outDir": "./PDF",
 				"latex-workshop.latex.autoClean.run": "onBuilt",
-				"latex-workshop.latex.build.forceRecipeUsage": false,
-				"latex-workshop.synctex.afterBuild.enabled": true,
-				"latex-workshop.view.pdf.viewer": "tab",
 				"latex-workshop.latex.clean.subfolder.enabled": true,
 				"latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"],
-				"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717",
-				"latex-workshop.latex.autoBuild.run": "onSave",
-				"latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF",
-				"latex-workshop.view.pdf.color.dark.backgroundColor": "#171717",
-				"editor.formatOnSave": true,
-				"latex-workshop.latex.pdfWatch.delay": 500,
-				"latex-workshop.codespaces.portforwarding.openDelay": 20000,
-				"latex-workshop.latex.recipes": [
-					{
-						"name": "latexmk",
-						"tools": ["latexmk"]
-					},
-					{
-						"name": "pdflatex -> bibtex -> pdflatex*2",
-						"tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
-					}
-				],
-				"latex-workshop.latex.tools": [
-					{
-						"name": "latexmk",
-						"command": "latexmk",
-						"args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "-pdf", "%DOC%"]
-					},
-					{
-						"name": "pdflatex",
-						"command": "pdflatex",
-						"args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
-					},
-					{
-						"name": "bibtex",
-						"command": "bibtex",
-						"args": ["%DOCFILE%"]
-					}
-				],
-				"latex-workshop.latex.linting.enabled": true,
-				"latex-workshop.latex.linting.run": "onType",
-				"latex-workshop.intellisense.package.enabled": true,
-				"latex-workshop.intellisense.bibtexJSON.replace.number": 3,
-				"latex-workshop.synctex.synctexjs.enabled": true,
-				"latex-workshop.synctex.synctexjs.viewers": ["tab", "external"],
-				"latex-workshop.view.pdf.external.viewer.command": "evince"
+				"latex-workshop.latex.autoBuild.run": "onSave"
 			},
 			"extensions": ["James-Yu.latex-workshop"]
 		}
