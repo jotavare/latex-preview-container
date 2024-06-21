@@ -48,7 +48,7 @@
 					"%DOC%"
 				],
 				"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717",
-				"latex-workshop.latex.autoBuild.run": "never",
+				"latex-workshop.latex.autoBuild.run": "onSave",
 				"latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF",
 				"latex-workshop.view.pdf.color.dark.backgroundColor": "#171717",
 				"editor.formatOnSave": true,
