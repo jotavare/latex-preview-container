@@ -1,0 +1,63 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
+{
+	"name": "latex",
+	"image": "jotavare/latex:latest",
+	"remoteUser": "root",
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"latex-workshop.latex.clean.fileTypes": [
+					"*.aux",
+					"*.bbl",
+					"*.blg",
+					"*.idx",
+					"*.ind",
+					"*.lof",
+					"*.lot",
+					"*.out",
+					"*.toc",
+					"*.acn",
+					"*.acr",
+					"*.alg",
+					"*.glg",
+					"*.glo",
+					"*.gls",
+					"*.fls",
+					"*.log",
+					"*.fdb_latexmk",
+					"*.snm",
+					"*.synctex(busy)",
+					"*.synctex.gz(busy)",
+					"*.nav",
+					"*.vrb",
+					"*.gz",
+					"*.bcf",
+					"*.nlo",
+					"*.run.xml"
+				],
+				"latex-workshop.latex.outDir": "./PDF",
+				"latex-workshop.latex.autoClean.run": "onBuilt",
+				"latex-workshop.latex.build.forceRecipeUsage": false,
+				"latex-workshop.synctex.afterBuild.enabled": true,
+				"latex-workshop.view.pdf.viewer": "tab",
+				"latex-workshop.latex.clean.subfolder.enabled": true,
+				"latex-workshop.latex.magic.args": [
+					"-output-directory=PDF",
+					"%DOC%"
+				],
+				"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717",
+				"latex-workshop.latex.autoBuild.run": "never",
+				"latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF",
+				"latex-workshop.view.pdf.color.dark.backgroundColor": "#171717",
+				"editor.formatOnSave": true,
+				"latex-workshop.latex.pdfWatch.delay": 500,
+				"latex-workshop.codespaces.portforwarding.openDelay": 20000,
+			},
+			"extensions": [
+				"James-Yu.latex-workshop",
+			]
+		}
+	}
+}
