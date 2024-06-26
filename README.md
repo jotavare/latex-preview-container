@@ -74,4 +74,4 @@ If you find any issues or have suggestions for improvements, feel free to fork t
 
 ## LICENSE
 
-This project is licensed under The Unlicense. See the [LICENSE](https://github.com/jotavare/latex-preview-container/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/jotavare/latex-preview-container/blob/main/LICENSE) file.
