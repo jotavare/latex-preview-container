@@ -1,4 +1,6 @@
-FROM texlive/texlive:latest-full
+FROM texlive/texlive:latest-minimal
+# FROM texlive/miktex:miktex:latest
+# FROM texlive/texlive:latest-full
 
 RUN apt-get update && \
     apt-get install -y git perl && \
