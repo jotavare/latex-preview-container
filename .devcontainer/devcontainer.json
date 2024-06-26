@@ -1,5 +1,5 @@
 {
-	"image": "jotavare/latex:latest",
+	"image": "jotavare/latex-minimal:latest",
 	"customizations": {
 		"vscode": {
 			"settings": {
