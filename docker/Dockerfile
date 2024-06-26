@@ -1,5 +1,5 @@
 # pull latest full texlive image as the base image
-FROM pandoc/latex:latest-ubuntu
+FROM texlive/texlive:latest-full
 
 # update package list, install git and perl, remove unnecesary files
 RUN apt-get update \
