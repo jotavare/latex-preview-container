@@ -1,10 +1,8 @@
-FROM texlive/texlive:latest-minimal
-# FROM texlive/miktex:miktex:latest
-# FROM texlive/texlive:latest-full
+# pull latest full texlive image as the base image
+FROM pandoc/latex:latest-ubuntu
 
-RUN apt-get update && \
-    # apt-get install -y git perl && \
-    apt-get install -y latexmk  && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* && \
-    echo "All done!"
+# update package list, install git and perl, remove unnecesary files
+RUN apt-get update \
+    && apt-get install -y git perl \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* \
