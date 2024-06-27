@@ -2,4 +2,6 @@ image: jotavare/latex:latest
 
 vscode:
   extensions:
-    - James-Yu.latex-workshop
+    file: extensions.json
+  settings:
+    file: settings.json
