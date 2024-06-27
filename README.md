@@ -25,7 +25,7 @@ The optimal approach is to create an extension using a codespace with all necess
 
 ## DOCKER IMAGE
 
-The Docker image pulls the latest full version of TeX Live without documentation and source files, installs `git` and `perl`, and cleans unnecessary files, totaling 2.33GB. Depending on the project needs, other tags like `minimal`, `small`, or `medium` may also be used, to reduce codespaces build time.
+The Docker image pulls the latest full version of TeX Live without documentation and source files, installs `git` and `perl`, and cleans unnecessary files, totalling 2.33GB. Depending on the project needs, other tags like `minimal`, `small`, or `medium` may also be used, to reduce codespaces build time.
 
 - [TeX Live Docker Images Tags](https://hub.docker.com/r/texlive/texlive/tags)
 
@@ -64,7 +64,7 @@ latex-preview-container/
 
 ## FUTURE PLANS
 
-- [ ] Create a smaller and otimized Docker image with minimal tools for LaTeX, to build and preview PDF files.
+- [ ] Create a smaller and optimized Docker image with minimal tools for LaTeX, to build and preview PDF files.
 - [ ] Include new extensions in the `devcontainer.json` to enhance the workflow, such as grammar check, code formatting, Copilot, etc.
 - [ ] Explore the [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki) extension wiki to provide more features and utilities to the devcontainer.
 
@@ -74,4 +74,4 @@ If you find any issues or have suggestions for improvements, feel free to fork t
 
 ## LICENSE
 
-This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/jotavare/latex-preview-container/blob/main/LICENSE) file.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/latex-preview-container/blob/main/LICENSE) file.
