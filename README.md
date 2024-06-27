@@ -50,6 +50,8 @@ latex-preview-container/
 
 ## REFERENCES
 
+Below are links I used to create this repository and other information that may be useful in the future.
+
 | Link | Source |
 | :--  | :----- |
 | [TeX Live](https://tug.org/texlive) | `Website` |
@@ -58,9 +60,14 @@ latex-preview-container/
 | [The Comprehensive TeX Archive Network](https://www.ctan.org/) | `Website` |
 | [James-Yu/LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop) | `GitHub` |
 | [PDFTeX](https://www.tug.org/applications/pdftex/) | `Website` |
+| [WebLaTex](https://github.com/sanjib-sen/WebLaTex) | `GitHub` |
 | [TinyTeX](https://yihui.org/tinytex/) | `Unix` |
 | [MiKTeX](https://miktex.org/) | `Windows` |
 | [MacTeX](https://tug.org/mactex/) | `Macintosh` |
+| [typst](https://github.com/typst/typst) | `GitHub` |
+| [setup-typst](https://github.com/typst-community/setup-typst) | `GitHub` |
+| [typst-action](https://github.com/lvignoli/typst-action) | `GitHub` |
+| [typst-live](https://github.com/ItsEthra/typst-live) | `GitHub` |
 
 ## FUTURE PLANS
 
