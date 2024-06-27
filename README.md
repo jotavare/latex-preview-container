@@ -64,10 +64,15 @@ Below are links I used to create this repository and other information that may 
 | [TinyTeX](https://yihui.org/tinytex/) | `Unix` |
 | [MiKTeX](https://miktex.org/) | `Windows` |
 | [MacTeX](https://tug.org/mactex/) | `Macintosh` |
-| [typst](https://github.com/typst/typst) | `GitHub` |
-| [setup-typst](https://github.com/typst-community/setup-typst) | `GitHub` |
-| [typst-action](https://github.com/lvignoli/typst-action) | `GitHub` |
-| [typst-live](https://github.com/ItsEthra/typst-live) | `GitHub` |
+
+## TYPST REFERENCES
+
+Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
+
+| [Typst](https://github.com/typst/typst) | `GitHub` |
+| [Typst Setup](https://github.com/typst-community/setup-typst) | `GitHub` |
+| [Typst Actions](https://github.com/lvignoli/typst-action) | `GitHub` |
+| [Typst Live](https://github.com/ItsEthra/typst-live) | `GitHub` |
 
 ## FUTURE PLANS
 
