@@ -69,6 +69,8 @@ Below are links I used to create this repository and other information that may 
 
 Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
 
+| Link | Source |
+| :--  | :----- |
 | [Typst](https://github.com/typst/typst) | `GitHub` |
 | [Typst Setup](https://github.com/typst-community/setup-typst) | `GitHub` |
 | [Typst Actions](https://github.com/lvignoli/typst-action) | `GitHub` |
