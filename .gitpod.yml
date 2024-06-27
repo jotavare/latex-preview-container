@@ -4,11 +4,14 @@ vscode:
   extensions:
     - James-Yu.latex-workshop
   settings:
-    "latex-workshop.latex.clean.fileTypes": [
-      "*.aux", "*.fdb_latexmk", "*.fls", "*.log", "*.synctex.gz"
-    ],
-    "latex-workshop.latex.outDir": "./PDF",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latex.clean.subfolder.enabled": true,
-    "latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"],
+    "latex-workshop.latex.clean.fileTypes":
+      - "*.aux"
+      - "*.fdb_latexmk"
+      - "*.fls"
+      - "*.log"
+      - "*.synctex.gz"
+    "latex-workshop.latex.outDir": "./PDF"
+    "latex-workshop.latex.autoClean.run": "onBuilt"
+    "latex-workshop.latex.clean.subfolder.enabled": true
+    "latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"]
     "latex-workshop.latex.autoBuild.run": "onSave"
