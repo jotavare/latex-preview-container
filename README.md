@@ -91,7 +91,7 @@ Typst is a new markup-based typesetting system that is designed to be as powerfu
 ## FUTURE PLANS
 
 - [ ] Create a smaller and optimized Docker image with minimal tools for LaTeX, to build and preview PDF files.
-- [ ] Include new extensions in the `devcontainer.json` to enhance the workflow, such as grammar check, code formatting, Copilot, etc.
+- [ ] Include new extensions in the `devcontainer.json` to enhance the workflow, such as grammar check, code formatting, Copilot, dark mode, etc.
 - [ ] Explore the [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki) extension wiki to provide more features and utilities to the devcontainer.
 
 ## CONTRIBUTING
