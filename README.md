@@ -77,7 +77,7 @@ Below are links I used to create this repository and other information that may 
 | [MiKTeX](https://miktex.org/) | `Windows` |
 | [MacTeX](https://tug.org/mactex/) | `Macintosh` |
 
-## TYPST REFERENCES
+## TYPST
 
 Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
 
