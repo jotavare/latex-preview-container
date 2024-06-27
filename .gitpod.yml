@@ -1,7 +1,1 @@
 image: jotavare/latex:latest
-
-vscode:
-  extensions:
-    file: extensions.json
-  settings:
-    file: settings.json
