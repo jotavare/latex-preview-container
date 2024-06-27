@@ -10,6 +10,7 @@ The initial goal was to develop a Visual Studio Code extension for building LaTe
 The optimal approach is to create an extension using a codespace with all necessary dependencies. However, using a Docker image with Codespaces remains the simplest and most reliable solution for me at the current moment.
 
 ## HOW TO USE
+#### CODESPACES
 
 1. Fork or use this repository and click on `Code`.
 2. Click `Create codespace on main`.
@@ -22,6 +23,17 @@ The optimal approach is to create an extension using a codespace with all necess
 
 > [!NOTE]
 > The PDF preview may take approximately 30 seconds to work properly the first time.
+
+#### GITPOD
+
+Can also use gitpod to create an environment based on this repository, click [here](https://gitpod.io/#https://github.com/jotavare/latex-preview-container/) or use the link below:
+
+```
+https://gitpod.io/#https://github.com/jotavare/latex-preview-container/
+```
+
+> [!NOTE]
+> In contrast to Codespaces, Gitpod provides instant PDF preview (first time) and automatically builds LaTeX projects after the initial setup.
 
 ## DOCKER IMAGE
 
