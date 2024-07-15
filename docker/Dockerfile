@@ -1,3 +1,5 @@
+# sample dockerfile to create a latex container
+
 # pull latest full texlive image as the base image
 FROM texlive/texlive:latest-full
 

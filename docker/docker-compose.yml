@@ -1,3 +1,4 @@
+# sample docker-compose.yml to create a latex container
 version: '3.9'
 services:
   latex:
