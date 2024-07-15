@@ -1,3 +1,4 @@
+// configuration file to create a dev container on local vscode or codespaces
 {
 	"image": "jotavare/latex:latest",
 	"customizations": {
@@ -12,7 +13,13 @@
 				"latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"],
 				"latex-workshop.latex.autoBuild.run": "onSave"
 			},
-			"extensions": ["James-Yu.latex-workshop"]
+			"extensions": [
+				"ms-vsliveshare.vsliveshare",
+				"James-Yu.latex-workshop",
+				"GitHub.copilot",
+				"valentjn.vscode-ltex",
+				"znck.grammarly"
+		]
 		}
 	}
 }
