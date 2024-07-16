@@ -1,25 +1,17 @@
 // configuration file to create a dev container on local vscode or codespaces
 {
-	"image": "jotavare/latex:latest",
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"latex-workshop.latex.clean.fileTypes": [
-					"*.aux", "*.fdb_latexmk", "*.fls", "*.log", "*.synctex.gz"
-				],
-				"latex-workshop.latex.outDir": "./PDF",
-				"latex-workshop.latex.autoClean.run": "onBuilt",
-				"latex-workshop.latex.clean.subfolder.enabled": true,
-				"latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"],
-				"latex-workshop.latex.autoBuild.run": "onSave"
-			},
-			"extensions": [
-				"ms-vsliveshare.vsliveshare",
-				"James-Yu.latex-workshop",
-				"GitHub.copilot",
-				"valentjn.vscode-ltex",
-				"znck.grammarly"
-		]
-		}
-	}
+    "name": "LaTeX",
+    "image": "jotavare/latex:latest",
+    "customizations": {
+        "vscode": {
+            "settings": "../.vscode/settings.json",
+            "extensions": [
+                "ms-vsliveshare.vsliveshare",
+                "James-Yu.latex-workshop",
+                "GitHub.copilot",
+                "valentjn.vscode-ltex",
+                "znck.grammarly"
+            ]
+        }
+    }
 }
