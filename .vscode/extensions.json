@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vsliveshare.vsliveshare",   // live share
+        "James-Yu.latex-workshop",      // latex workshop
+        "GitHub.copilot",               // github copilot
+        "valentjn.vscode-ltex",         // grammar/spell checker for latex
+    ]
+}
