@@ -1,0 +1,74 @@
+{
+    // define the latex toolchain with custom tools
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",               // enable synctex for source synchronization
+                "-interaction=nonstopmode", // continue processing without stopping on errors
+                "-file-line-error",         // display file and line number in error messages
+                "-output-directory=PDF",    // output directory for generated files
+                "%DOC%"                     // placeholder for the document name
+            ]
+        }
+    ],
+
+    // define the build recipe
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        }
+    ],
+
+    // clean auxiliary files
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",                // auxiliary files
+        "*.bbl",                // bibliography files
+        "*.blg",                // bibliography log files
+        "*.idx",                // index files
+        "*.ind",                // indices
+        "*.lof",                // list of figures
+        "*.lot",                // list of tables
+        "*.out",                // general output files
+        "*.toc",                // table of contents
+        "*.acn",                // acronym files
+        "*.acr",                // acronym files
+        "*.alg",                // algorithm files
+        "*.glg",                // glossary files
+        "*.glo",                // glossary files
+        "*.gls",                // glossary files
+        "*.fls",                // flows files
+        "*.log",                // log files
+        "*.fdb_latexmk",        // latexmk files
+        "*.snm",                // snippet files
+        "*.synctex(busy)",      // synctex busy files
+        "*.synctex.gz(busy)",   // compressed synctex busy files
+        "*.nav",                // navigation files
+        "*.vrb",                // verbatim files
+        "*.gz",                 // gzip files
+        "*.bcf",                // biber files
+        "*.nlo",                // nomenclature files
+        "*.run.xml"             // xml files
+    ],
+
+    // latex workshop settings
+    "latex-workshop.latex.outDir": "./PDF",                                 // output directory for pdf files
+    "latex-workshop.latex.autoClean.run": "onBuilt",                        // automatically clean files after build
+    "latex-workshop.latex.build.forceRecipeUsage": false,                   // don't force recipe usage
+    "latex-workshop.synctex.afterBuild.enabled": true,                      // enable synctex after build
+    "latex-workshop.view.pdf.viewer": "tab",                                // view pdf in tab
+    "latex-workshop.latex.clean.subfolder.enabled": true,                   // enable cleaning subfolders
+    "latex-workshop.latex.magic.args": ["-output-directory=PDF", "%DOC%"],  // magic arguments for latex
+    "latex-workshop.latex.autoBuild.run": "onSave",                         // auto build on save
+    "editor.formatOnSave": true,                                            // format on save
+    "latex-workshop.codespaces.portforwarding.openDelay": 20000,            // port forwarding delay for codespaces
+
+    // pdf viewer dark mode settings
+    "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717",   // background color for pdf pages
+    "latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF",   // foreground color for pdf pages
+    "latex-workshop.view.pdf.color.dark.backgroundColor": "#171717"         // background color for viewer
+}
