@@ -1,8 +1,15 @@
+// duplicate version of devcontainer.json for local vscode
 {
     "recommendations": [
-        "ms-vsliveshare.vsliveshare",   // live share
-        "James-Yu.latex-workshop",      // latex workshop
-        "GitHub.copilot",               // github copilot
-        "valentjn.vscode-ltex",         // grammar/spell checker for latex
+        "ms-vsliveshare.vsliveshare",
+        "James-Yu.latex-workshop",
+        "GitHub.copilot",
+        "valentjn.vscode-ltex",
+        "znck.grammarly",
+        "vscode-icons-team.vscode-icons",
+        "stkb.rewrap",
+        "eamodio.gitlens",
+        "shardulm94.trailing-spaces",
+        "ms-azuretools.vscode-docker"
     ]
 }

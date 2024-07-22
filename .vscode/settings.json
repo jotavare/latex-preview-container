@@ -1,4 +1,9 @@
+// used by devcontainer.json and for local vscode
 {
+    // general settings
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "files.eol": "\n",
+
     // define the latex toolchain with custom tools
     "latex-workshop.latex.tools": [
         {
