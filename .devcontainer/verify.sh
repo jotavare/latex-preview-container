@@ -1,0 +1,7 @@
+echo "TexLive release $(tlmgr version | awk 'NR==2 {print $NF}')"
+echo "tlmgr version $(tlmgr version | awk 'NR==1 {print $3}')"
+echo "latexindent version $(latexindent --version | awk 'NR==1 {print $3}')"
+echo "latexmk version $(latexmk -version | awk 'NR==1 {print $NF}')"
+echo "Git version $(git --version | awk '{print $3}')"
+echo "Perl version $(perl -v | awk '/This is perl/ {print $4}')"
+echo "Zsh version $(zsh --version | awk '{print $2}')"

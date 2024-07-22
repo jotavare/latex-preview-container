@@ -1,7 +1,12 @@
 // configuration file to create a dev container on local vscode or codespaces
 {
     "name": "LaTeX",
-    "image": "jotavare/latex:latest",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "vscode",
+    "runServices": ["vscode"],
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "",
     "customizations": {
         "vscode": {
             "settings": "../.vscode/settings.json",
@@ -10,7 +15,11 @@
                 "James-Yu.latex-workshop",
                 "GitHub.copilot",
                 "valentjn.vscode-ltex",
-                "znck.grammarly"
+                "znck.grammarly",
+                "vscode-icons-team.vscode-icons",
+                "stkb.rewrap",
+                "eamodio.gitlens",
+                "shardulm94.trailing-spaces"
             ]
         }
     }
