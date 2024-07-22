@@ -1,5 +1,4 @@
-# sample dockerfile to create a latex container
-# always updated to jotavare/latex:latest
+# sample dockerfile to create a docker image
 
 # pull latest full texlive image as the base image
 FROM texlive/texlive:latest-full
@@ -10,6 +9,7 @@ RUN apt-get update -y \
     && apt-get clean autoclean \
     && apt-get autoremove -y
 
+# set the default shell to zsh
 SHELL ["/bin/zsh", "-c"]
 
-COPY /welcome.sh /root/
+COPY /.devcontainer/versions.sh /root/

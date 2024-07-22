@@ -1,0 +1,28 @@
+# docker-compose file to run vscode inside a container
+version: "3.9"
+
+services:
+  vscode:
+    build: .
+    container_name: vscode
+    image: jotavare/latex:latest
+    volumes:
+      # workspace directory
+      - ../:/workspace
+      # docker socket to run docker inside the container
+      - /var/run/docker.sock:/var/run/docker.sock
+      # ssh directory (both host and tmp)
+      - ~/.ssh:/root/.ssh:ro
+      - ~/.ssh:/tmp/.ssh:ro
+      # shell history
+      - ~/.zsh_history:/root/.zsh_history:z
+      # git config
+      - ~/.gitconfig:/root/.gitconfig
+    environment:
+      # timezone
+      - TZ=UTC
+    entrypoint:
+      # keep container running
+      - "zsh"
+      - "-c"
+      - "while sleep 1000; do :; done"

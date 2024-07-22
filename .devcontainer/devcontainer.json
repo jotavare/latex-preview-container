@@ -1,12 +1,16 @@
 // configuration file to create a dev container on local vscode or codespaces
 {
     "name": "LaTeX",
-    "dockerComposeFile": ["docker-compose.yml"],
+    "dockerComposeFile": [
+        "../docker/docker-compose.yml"
+    ],
     "service": "vscode",
-    "runServices": ["vscode"],
+    "runServices": [
+        "vscode"
+    ],
     "shutdownAction": "stopCompose",
     "workspaceFolder": "/workspace",
-    "postCreateCommand": "",
+    "postCreateCommand": "cd /root && ./versions.sh",
     "customizations": {
         "vscode": {
             "settings": "../.vscode/settings.json",
