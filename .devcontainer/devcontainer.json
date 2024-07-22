@@ -19,7 +19,8 @@
                 "vscode-icons-team.vscode-icons",
                 "stkb.rewrap",
                 "eamodio.gitlens",
-                "shardulm94.trailing-spaces"
+                "shardulm94.trailing-spaces",
+                "ms-azuretools.vscode-docker"
             ]
         }
     }
