@@ -37,7 +37,7 @@ https://gitpod.io/#https://github.com/jotavare/latex-preview-container/
 
 ## DOCKER IMAGE
 
-The Docker image pulls the latest full version of TeX Live without documentation and source files, installs `git` and `perl`, and cleans unnecessary files, totalling 2.33GB. Depending on the project needs, other tags like `minimal`, `small`, or `medium` may also be used, to reduce codespaces build time.
+The Docker image pulls the latest full version of TeX Live without documentation and source files, installs `git` and `perl`, and cleans unnecessary files. The resulting image is around 9GB uncompressed. Depending on the project needs, other tags like `minimal`, `small`, or `medium` may also be used, to reduce codespaces build time.
 
 - [TeX Live Docker Images Tags](https://hub.docker.com/r/texlive/texlive/tags)
 
