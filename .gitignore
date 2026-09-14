@@ -1,0 +1,45 @@
+# LaTeX build output
+latex/PDF/
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.log
+*.fdb_latexmk
+*.snm
+*.synctex.gz
+*.nav
+*.vrb
+*.bcf
+*.nlo
+*.run.xml
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# env / secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+credentials.json
