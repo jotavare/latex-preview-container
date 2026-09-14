@@ -115,7 +115,7 @@ Typst is a new markup-based typesetting system that is designed to be as powerfu
 
 ## CONTRIBUTING
 
-This repository is a personal example project and is not open to external contributions. Issues and pull requests are disabled.
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
 
 ## LICENSE
 
