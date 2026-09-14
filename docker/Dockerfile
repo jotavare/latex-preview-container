@@ -5,7 +5,7 @@
 # pull latest full texlive image as the base image
 FROM texlive/texlive:latest-full
 
-# update package list, install git and perl, remove unnecesary files
+# update package list, install git and perl, remove unnecessary files
 RUN apt-get update -y \
     && apt-get install -y --no-install-recommends git perl zsh \
     && apt-get clean autoclean \
@@ -15,3 +15,4 @@ RUN apt-get update -y \
 SHELL ["/bin/zsh", "-c"]
 
 COPY versions.sh /root/
+RUN chmod +x /root/versions.sh
