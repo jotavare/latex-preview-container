@@ -1,22 +1,3 @@
-<p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/languages/top/jotavare/latex-preview-container?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/last-commit/jotavare/latex-preview-container?color=%2312bab9&style=flat-square"/>
-	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
-</p>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#how-to-use">How to use</a> •
-	<a href="#docker-image">Docker image</a> •
-	<a href="#folder-and-file-structure">Folder and file structure</a> •
-	<a href="#references">References</a> •
-	<a href="#typst">Typst</a> •
-	<a href="#future-plans">Future plans</a> •
-	<a href="#contributing">Contributing</a> •
-	<a href="#license">License</a>
-</p>
-
 ## ABOUT
 
 This repository provides a Codespace environment for instantly and automatically building and previewing LaTeX files.
@@ -112,11 +93,3 @@ Typst is a new markup-based typesetting system that is designed to be as powerfu
 - [ ] Create a smaller and optimized Docker image with minimal tools for LaTeX, to build and preview PDF files.
 - [ ] Include new extensions in the `devcontainer.json` to enhance the workflow, such as grammar check, code formatting, Copilot, dark mode, etc.
 - [ ] Explore the [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop/wiki) extension wiki to provide more features and utilities to the devcontainer.
-
-## CONTRIBUTING
-
-This repository is finished and not open to changes.
-
-## LICENSE
-
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/latex-preview-container/blob/main/LICENSE) file.
